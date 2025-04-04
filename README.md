@@ -1,18 +1,10 @@
 <<<<<<< HEAD
 # E-STATION
 =======
-# Ethiopian IT Park Management System
-
-This project is a comprehensive management system developed for the Ethiopian IT Park. 
-The system supports detailed planning, reporting, and staff communication, all tailored to the organization's structure. 
-The platform is built with modern technologies, including React, Node.js, and MySQL, ensuring a scalable and secure solution.
 
 ## Features
 
-- **Detailed Planning**: Organize and manage projects with structured planning tools.
-- **Reporting**: Generate and manage reports based on organizational data.
-- **Staff Chat**: Enable real-time communication between staff members.
-- **Role-Based Access**: Secure access control based on the organization’s structure.
+
 
 ## Technologies Used
 
