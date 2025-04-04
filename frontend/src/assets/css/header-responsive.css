@@ -1,0 +1,245 @@
+/***********************/
+/* Responsive Header CSS
+/***********************/
+
+.header {
+    /* Default header padding for PC */
+    padding: 15px 30px;
+  }
+  
+  /* Logo styling */
+  .header .logo img {
+    width: 70px;
+    height: 70px;
+    transition: all 0.3s ease;
+  }
+  
+  .header .logo-text {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  /* Header navigation */
+  .header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-nav-profile-wrapper,
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  /* Hamburger button hidden on larger screens */
+  .hamburger-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  /* Mobile view */
+  @media (max-width: 576px) {
+    .header {
+      padding: 10px 15px;
+    }
+    .header .logo img {
+      width: 40px;
+      height: 40px;
+    }
+    /* Hide descriptive text next to logo on mobile */
+    .header .logo-text {
+      display: none;
+    }
+    /* Display hamburger button */
+    .hamburger-btn {
+      display: block;
+    }
+    /* Adjust navigation layout */
+    .header-nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .header-time {
+      display: none;
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 577px) and (max-width: 991px) {
+    .header {
+      padding: 12px 20px;
+    }
+    .header .logo img {
+      width: 50px;
+      height: 50px;
+    }
+    .header .logo-text {
+      font-size: 16px;
+    }
+    .header-nav ul {
+      flex-direction: row;
+    }
+    .header-time {
+      font-size: 12px;
+    }
+       /* Display hamburger button */
+       .hamburger-btn {
+        display: block;
+      }
+  }
+  
+  /* PC view */
+  @media (min-width: 992px) {
+    .header {
+      padding: 15px 30px;
+    }
+    .header .logo img {
+      width: 70px;
+      height: 70px;
+    }
+    .header .logo-text {
+      font-size: 18px;
+    }
+    .header-nav ul {
+      flex-direction: row;
+    }
+    .header-time {
+      font-size: 14px;
+    }
+  }
+  
+  /* Sidebar open state for mobile if needed */
+  .sidebar.open {
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Default state for sidebar (hidden off-screen on mobile) */
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }  /***********************/
+/* Responsive Header CSS
+/***********************/
+
+.header {
+    /* Default header padding for PC */
+    padding: 15px 30px;
+  }
+  
+  /* Logo styling */
+  .header .logo img {
+    width: 70px;
+    height: 70px;
+    transition: all 0.3s ease;
+  }
+  
+  .header .logo-text {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  /* Header navigation */
+  .header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-nav-profile-wrapper,
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  /* Hamburger button hidden on larger screens */
+  .hamburger-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  /* Mobile view */
+  @media (max-width: 576px) {
+    .header {
+      padding: 10px 15px;
+    }
+    .header .logo img {
+      width: 40px;
+      height: 40px;
+    }
+    /* Hide descriptive text next to logo on mobile */
+    .header .logo-text {
+      display: none;
+    }
+    /* Display hamburger button */
+    .hamburger-btn {
+      display: block;
+    }
+    /* Adjust navigation layout */
+    .header-nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .header-time {
+      display: none;
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 577px) and (max-width: 991px) {
+    .header {
+      padding: 12px 20px;
+    }
+    .header .logo img {
+      width: 50px;
+      height: 50px;
+    }
+    .header .logo-text {
+      font-size: 16px;
+    }
+    .header-nav ul {
+      flex-direction: row;
+    }
+    .header-time {
+      font-size: 12px;
+    }
+  }
+  
+  /* PC view */
+  @media (min-width: 992px) {
+    .header {
+      padding: 15px 30px;
+    }
+    .header .logo img {
+      width: 70px;
+      height: 70px;
+    }
+    .header .logo-text {
+      font-size: 18px;
+    }
+    .header-nav ul {
+      flex-direction: row;
+    }
+    .header-time {
+      font-size: 14px;
+    }
+  }
+  
+  /* Sidebar open state for mobile if needed */
+  /* .sidebar.open {
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+  } */
+  
+  /* Default state for sidebar (hidden off-screen on mobile) */
+  /* .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }   */
