@@ -9,11 +9,12 @@
 ## Technologies Used
 
 - **Frontend**: React
-- **Backend**: Node.js
+- **Backend**: express js, Node.js
 - **Database**: MySQL
 - **Security**:
   - JWT (JSON Web Tokens) for authentication
   - Password hashing for secure user authentication
+  -CRS and CORS and express limiter.
   - Technical measures for protection against common vulnerabilities
 
 ## Installation
@@ -29,8 +30,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hayalt27/ethiopian-it-park-management.git
-   cd ethiopian-it-park-management
+   git clone https://github.com/hayalt27/E-STATION.git
+   cd E-STATION
 2. Install backend dependencies:
 cd backend
 npm install
