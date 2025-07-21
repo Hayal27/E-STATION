@@ -29,7 +29,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hayalt27/ethiopian-it-park-management.git
+   git clone https://github.com/hayalt27/E-station.git
    cd ethiopian-it-park-management
 2. Install backend dependencies:
 cd backend
